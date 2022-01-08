@@ -1,0 +1,41 @@
+{
+    "name": "oro-flex/property-access",
+    "description": "The Oro Property Access component reads/writes values from/to object/array graphs using a simple string notation.",
+    "homepage": "https://github.com/oroinc/platform/tree/master/src/Oro/Component/PropertyAccess",
+    "license": "MIT",
+    "authors": [
+	    {
+            "name": "Nikita Makarov",
+            "email": "mesaverde228@gmail.com"
+        },
+        {
+            "name": "Oro, Inc",
+            "homepage": "https://oroinc.com/"
+        }
+    ],
+    "require": {
+        "php": "~7.4.14 || ~8.0.0",
+        "symfony/property-access": ">=2.7.3"
+    },
+    "require-dev": {
+    },
+    "conflict": {
+        "oro/platform": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "symfony": {
+            "require": "5.4.*"
+        },
+        "branch-alias": {
+            "dev-master": "5.0-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Oro\\Component\\PropertyAccess\\": ""
+        },
+        "exclude-from-classmap": ["/Tests/"]
+    }
+}
